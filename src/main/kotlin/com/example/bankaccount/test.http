@@ -1,0 +1,25 @@
+### C - Create
+POST http://localhost:8080/accounts
+Content-Type: application/json
+
+{
+  "name": "Glaucia",
+  "document": "123"
+}
+
+### R - Read
+GET http://localhost:8080/accounts
+Content-Type: application/json
+
+### U - Update
+PUT http://localhost:8080/accounts/123
+Content-Type: application/json
+
+{
+  "name": "Glaucia Silva",
+  "document": "1234",
+  "balance": "100"
+}
+
+### D - Delete
+DELETE http://localhost:8080/accounts/123
